@@ -11,7 +11,7 @@ from airflow.sensors.time_delta import TimeDeltaSensor
 # ---------------------------------------------------------------------------
 
 @dag(
-    dag_id="Test_1",
+    dag_id="test_1",
     description="Test_1: Simple ETL-style TaskFlow DAG.",
     start_date=datetime(2024, 1, 1),
     schedule="@daily",

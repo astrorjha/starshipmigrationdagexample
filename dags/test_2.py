@@ -10,7 +10,7 @@ from airflow.sensors.time_delta import TimeDeltaSensor
 # ---------------------------------------------------------------------------
 
 @dag(
-    dag_id="Test_2",
+    dag_id="test_2",
     description="Test_2: Demonstrates branching and mixed operator types.",
     start_date=datetime(2024, 1, 1),
     schedule="@hourly",

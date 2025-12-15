@@ -10,7 +10,7 @@ from airflow.sensors.time_delta import TimeDeltaSensor
 # ---------------------------------------------------------------------------
 
 @dag(
-    dag_id="Test_3",
+    dag_id="test_3",
     description="Test_3: Uses TimeDeltaSensor and dynamic task mapping.",
     start_date=datetime(2024, 1, 1),
     schedule="@daily",
